@@ -60,6 +60,6 @@ main {
 }
 
 .meme__image {
-  max-width: 100%;
+  width: 100%;
   margin-top: 1.25rem;
 }
