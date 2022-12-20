@@ -58,3 +58,8 @@ main {
   cursor: pointer;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
+
+.meme__image {
+  max-width: 100%;
+  margin-top: 1.25rem;
+}
