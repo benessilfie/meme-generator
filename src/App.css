@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  padding: 2.25rem 30rem;
+  padding: 2.25rem;
 }
 
 .header {
@@ -17,7 +17,7 @@ main {
   height: 65px;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 30rem;
+  padding: 1.25rem;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
 
@@ -92,4 +92,26 @@ main {
 .top {
   margin-top: 2rem;
   top: 0;
+}
+
+/* Media queries for mobile */
+@media (max-width: 768px) {
+  main {
+    padding: 2.25rem;
+  }
+
+  .header {
+    padding: 1.25rem;
+  }
+}
+
+/* Media queries for desktop */
+@media (min-width: 1024px) {
+  main {
+    padding: 2.25rem 25rem;
+  }
+
+  .header {
+    padding: 1.25rem;
+  }
 }
