@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  padding: 2.25rem;
+  padding: 2.25rem 30rem;
 }
 
 .header {
@@ -17,7 +17,7 @@ main {
   height: 65px;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem;
+  padding: 1.25rem 30rem;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
 
